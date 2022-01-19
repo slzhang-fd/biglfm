@@ -1,0 +1,17 @@
+Package: biglfm
+Type: Package
+Title: Confrimatory JMLE for simulation
+Version: 1.1.3
+Date: 2019-02-28
+Author: Siliang Zhang [aut, cre], Yunxiao Chen [aut], Xiaoou Li [aut]
+Maintainer: Siliang Zhang <zhangsiliang123@gmail.com>
+Description: Fit large scale latent factor data by maximizing constraint joint likelihood function
+  with parallel computing enabled.
+Depends: R (>= 3.1)
+License: GPL-3
+Imports: Rcpp (>= 0.12.10)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.1.0
+LazyData: true
+NeedsCompilation: yes
+Encoding: UTF-8
